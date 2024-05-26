@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import MainLayout from '@components/MainLayout';
+import MainLayout from '@/components/MainLayout';
+import Header from '@/components/Header'
+import Project from '@/components/Project'
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body><MainLayout></MainLayout></body>
+      <head><meta name="viewport" content="width=device-width, initial-scale=1.0"/></head>
+      <body>{children}
+      </body>
     </html>
   );
 }

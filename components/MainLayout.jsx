@@ -1,11 +1,10 @@
 import React from 'react'
+import MainHeader from "./MainHeader"
 
-const MainLayout = ({ children }) => {
+const MainLayout = ({children}) => {
     return (
-        <div>
-            <h1>MainLayout</h1>
-            <hr/>
-            <main>{children}</main>
+        <div className='MainLayout'>
+            <MainHeader></MainHeader>          
         </div>
     )
 }
