@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 3rem 1.5rem 3rem;
+  padding: 1.5rem 5rem 1.5rem 5rem;
 }
 
 .Main-Header h1 {
@@ -70,6 +70,7 @@ h1 {
   left: 218px;
 }
 
-.Button:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+.Button-bg:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
 }
