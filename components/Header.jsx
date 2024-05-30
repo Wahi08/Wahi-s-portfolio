@@ -6,7 +6,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 const Header = () => {
   return (
-    <section className="Header grid py-6 px-6 gap-8 md:items-center md:justify-items-center md:px-24 md:py-24">
+    <section className="Header grid py-6 px-6 gap-8 justify-items-center md:items-center md:justify-items-center md:px-26 md:py-24">
       <div className="Profiles relative md:translate-x-6">
         <Image
           className="Profile -translate-x-6"
@@ -17,7 +17,7 @@ const Header = () => {
           style={{ objectFit: "contain" }}
         ></Image>
 
-        <div className="circle-1 absolute rounded-full h-8 w-8 hover:border-font-1 border-2">
+        <div className="circle-1 absolute rounded-full h-8 w-8 hover:border-font-1 border-2" >
           <a href="https://github.com/Wahi08">
             <VscGithub />
           </a>
