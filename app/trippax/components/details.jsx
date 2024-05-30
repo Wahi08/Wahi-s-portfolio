@@ -31,12 +31,12 @@ const Details = () => {
 
       <div className="float-right overflow-y-auto h-56 md:h-[500px] ">
         <div className="">
-          <Image
+          <img
             src="/Content-Sharing-web-view-full.png"
             width={1100}
             height={300}
             style={{ objectFit: "contain" }}
-          ></Image>
+          ></img>
         </div>
       </div>
 
