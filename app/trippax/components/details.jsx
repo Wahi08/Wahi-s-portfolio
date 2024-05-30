@@ -35,6 +35,7 @@ const Details = () => {
             src="/Content-Sharing-web-view-full.png"
             width={1100}
             height={300}
+            style={{ objectFit: "contain" }}
           ></Image>
         </div>
       </div>
