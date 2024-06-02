@@ -6,6 +6,51 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 768px) { /* MD Screen */
+  .Header {
+    grid-template-columns: 350px 1.7fr;
+  }
+
+  .Project-header {
+    grid-template-columns: 1.7fr 350px;
+  }
+
+  .Design-1 {
+    grid-template-columns: 0.8fr 1.7fr;
+    grid-template-rows: 0.4fr 4.15fr;
+  }
+
+  .Design-2 {
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+    column-gap: 10px;
+  }
+
+  @media (max-width: 1280px){ /* XL Screen */
+    .Project {
+      grid-template-rows: 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr ;
+      grid-template-columns: 0.8fr 1.7fr;
+    }
+  }
+}
+
+@media (min-width: 1280px){
+  .Project {
+    grid-template-rows: 0.4fr 4.0fr 4.15fr 4.15fr 4.0fr;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .Logo {
+    grid-row: 1;
+  }
+
+  .Design-1 {
+    grid-template-rows: 0.05fr 0.3fr 0.1fr;
+  }
+}
+
 .Main-Header {
   background-color: #fff848;
   height: 60px;
@@ -24,36 +69,6 @@ h1 {
   font-size: 24px;
   letter-spacing: 0.1em;
   font-weight: bolder;
-}
-
-@media (min-width: 768px) {
-  .Header {
-    grid-template-columns: 350px 1.7fr;
-  }
-
-  .Project {
-    grid-template-rows: 0.4fr 4.15fr 4.15fr 4.15fr 4.15fr;
-    grid-template-columns: 0.8fr 1.7fr;
-  }
-
-  .Project-header {
-    grid-template-columns: 1.7fr 350px;
-  }
-
-  .Details {
-    grid-template-columns: 0.8fr 1.7fr;
-    grid-template-rows: 0.4fr 4.15fr 4.15fr;
-  }
-}
-
-@media (max-width: 767px) {
-  .Logo {
-    grid-row: 1;
-  }
-
-  .Description {
-    grid-row: 1;
-  }
 }
 
 .Profile {
@@ -93,4 +108,8 @@ h1 {
 .Button-bg:hover {
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
+}
+
+.Image-scroll {
+  background-color: rgba(100, 116, 139, 0.6);
 }
