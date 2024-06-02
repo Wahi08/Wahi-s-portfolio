@@ -32,7 +32,7 @@ const Header = () => {
         <div className="circle-5 absolute rounded-full h-8 w-8 bg-font-1"></div>
       </div>
 
-      <div className="md:mr-10">
+      <div className="md:mr-10 px-8">
         <h1>NURUL WAHIDAH</h1>
         <p className="text-justify">
           Highly motivated recent graduate with a passion for software

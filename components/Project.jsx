@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-    <section className="Project grid md:grid-flow-col gap-2 bg-lighter-yellow h-100 px-6 py-6 text-center place-items-center md:px-28 ">
+    <section className="Project grid xl:grid-flow-col gap-2 bg-lighter-yellow h-100 px-6 py-6 text-center place-items-center md:px-28 ">
       <div className="md:col-span-3">
         <h1 className="text-[1.8rem]">PROJECT</h1>
       </div>
