@@ -14,7 +14,7 @@ const ProjectHeader = () => {
           </div>
 
           <div className="pt-4 grid justify-items-center">
-            <img className="" src="/trippax-feature-header-2.svg"></img>
+            <Image className="" src="/trippax-feature-header-2.svg" width={1240} height={100}></Image>
           </div>
 
           <div className="py-6">
@@ -33,60 +33,70 @@ const ProjectHeader = () => {
 
           <div className="flex flex-wrap gap-10 text-center pb-10">
             <div className="grid justify-items-center">
-              <img
+              <Image
                 className="w-16 h-16"
                 src="/figma.svg"
                 alt="Figma Logo"
                 title="Figma"
-              ></img>
+                width={64}
+                height={64}
+              ></Image>
               <div className="text-s font-semibold tracking-wider text-gray-800">
                 Figma
               </div>
             </div>
 
             <div className="grid justify-items-center">
-              <img
+              <Image
                 className="w-16 h-16"
                 src="/flutter.svg"
                 alt="Flutter Logo"
                 title="Flutter"
-              ></img>
+                width={64}
+                height={64}
+              ></Image>
               <div className="text-s font-semibold tracking-wider text-gray-800 top-[10px]">
                 Flutter
               </div>
             </div>
 
             <div className="grid justify-items-center">
-              <img
+              <Image
                 className="w-16 h-16"
                 src="/dart.svg"
                 alt="Dart Logo"
                 title="Dart"
-              ></img>
+                width={64}
+                height={64}
+              ></Image>
               <div className="text-s font-semibold tracking-wider text-gray-800 top-[10px]">
                 Dart
               </div>
             </div>
 
             <div className="grid justify-items-center">
-              <img
+              <Image
                 className="w-16 h-16"
                 src="/mysql.svg"
                 alt="MySQL Logo"
                 title="MySQL"
-              ></img>
+                width={64}
+                height={64}
+              ></Image>
               <div className="text-s font-semibold tracking-wider text-gray-800 top-[10px]">
                 MySQL
               </div>
             </div>
 
             <div className="grid justify-items-center">
-              <img
+              <Image
                 className="w-16 h-16"
                 src="/sourcetree.svg"
                 alt="Sourcetree Logo"
                 title="Sourcetree"
-              ></img>
+                width={64}
+                height={64}
+              ></Image>
               <div className="text-s font-semibold tracking-wider text-gray-800 top-[10px]">
                 Sourcetree
               </div>
@@ -95,12 +105,14 @@ const ProjectHeader = () => {
 
           <div className="gplay-link pb-10 flex items-center">
             <div>
-              <img
+              <Image
                 className="w-8 h-8"
                 src="/gplay.svg"
                 alt="Google Play Logo"
                 title="Google Play"
-              ></img>
+                width={32}
+                height={32}
+              ></Image>
             </div>
             <div>
               <p>
