@@ -131,31 +131,31 @@ const ProjectHeader = () => {
         <div className="Image text-center overflow-y-auto lg:h-[calc(100vh-90px)] lg:mt-10 md:px-20 px-4">
           <div className="image-1 grid justify-items-center overflow-hidden bg-[#FF8C20]">
             <div className="m-4">
-              <img src="/popup-menu.svg"></img>
+              <Image src="/popup-menu.svg" width={1000} height={1000}></Image>
             </div>
           </div>
 
           <div className="image-2 grid justify-items-center rounded overflow-hidden my-10 bg-[#FF8C20]">
             <div className="m-4">
-              <img src="/view-list.svg"></img>
+              <Image src="/view-list.svg" width={1000} height={1000}></Image>
             </div>
           </div>
 
           <div className="image-3 grid justify-items-center  rounded overflow-hidden mt-10 bg-[#FF8C20]">
             <div className="m-4">
-              <img src="/view-activity.svg"></img>
+              <Image src="/view-activity.svg" width={1000} height={1000}></Image>
             </div>
           </div>
 
           <div className="image-4 grid justify-items-center  rounded overflow-hidden mt-10 bg-[#FF8C20]">
             <div className="m-4">
-              <img src="/navigation-option.svg"></img>
+              <Image src="/navigation-option.svg" width={1000} height={1000}></Image>
             </div>
           </div>
 
           <div className="image-5 grid justify-items-center  rounded overflow-hidden my-10 bg-[#FF8C20]">
             <div className="m-4">
-              <img src="/empty-field.svg"></img>
+              <Image src="/empty-field.svg" width={1000} height={1000}></Image>
             </div>
           </div>
         </div>
