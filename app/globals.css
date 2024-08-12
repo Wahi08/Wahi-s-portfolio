@@ -4,15 +4,13 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Tahoma', sans-serif;
 }
 
-@media (min-width: 768px) { /* MD Screen */
+@media (min-width: 768px) {
+  /* MD Screen */
   .Header {
     grid-template-columns: 350px 1.7fr;
-  }
-
-  .Project-header {
-    grid-template-columns: 1.7fr 350px;
   }
 
   .Design-1 {
@@ -25,21 +23,7 @@
     column-gap: 10px;
   }
 
-  @media (max-width: 1280px){ /* XL Screen */
-    .Project {
-      grid-template-rows: 0.2fr 1.5fr 1.5fr 1.5fr 1.5fr ;
-      grid-template-columns: 0.8fr 1.7fr;
-    }
-  }
 }
-
-@media (min-width: 1280px){
-  .Project {
-    grid-template-rows: 0.4fr 4.0fr 4.15fr 4.15fr 4.0fr;
-    grid-template-columns: 0.7fr 0.7fr 0.7fr;
-  }
-}
-
 
 @media (max-width: 767px) {
   .Logo {
@@ -51,65 +35,50 @@
   }
 }
 
-.Main-Header {
-  background-color: #fff848;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 5rem 1.5rem 5rem;
-}
-
-.Main-Header h1 {
-  font-size: 1.8rem;
-  letter-spacing: 0.2em;
-}
-
 h1 {
   font-size: 24px;
   letter-spacing: 0.1em;
   font-weight: bolder;
 }
 
-.Profile {
-  /* position: absolute; */
-  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
-    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+
+@media (min-width: 1024px) {
+  
+  .Project-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Project-header .Intro{
+      grid-template-columns: repeat(2, minmax(0, 900px));
+      
+}
 }
 
-.circle-1 {
-  top: 20px;
-  left: 220px;
-  padding: 6.23px;
-  border-color: transparent;
+/* Hide Scrollbar */
+.Project-header .Image::-webkit-scrollbar{
+  display: none;
 }
 
-.circle-2 {
-  top: 65px;
-  left: 240px;
-  padding: 6.23px;
-  border-color: transparent;
+.Project-header .Image{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.circle-3 {
-  top: 110px;
-  left: 245px;
-}
-.circle-4 {
-  top: 155px;
-  left: 238px;
+.Project-header .Details::-webkit-scrollbar{
+  display: none;
 }
 
-.circle-5 {
-  top: 195px;
-  left: 218px;
+.Project-header .Details{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.Button-bg:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
+.Works{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-.Image-scroll {
-  background-color: rgba(100, 116, 139, 0.6);
+.Works::-webkit-scrollbar{
+  display: none;
 }

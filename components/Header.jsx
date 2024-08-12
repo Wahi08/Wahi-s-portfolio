@@ -1,45 +1,36 @@
 import React from "react";
 import Image from "next/image";
 
-import { VscGithub } from "react-icons/vsc";
-import { MdOutlineMailOutline } from "react-icons/md";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Header = () => {
   return (
-    <section className="Header grid py-6 px-6 gap-8 justify-items-center md:items-center md:justify-items-center md:px-26 md:py-24">
-      <div className="Profiles relative md:translate-x-6">
+    <section className="bg-grey-white md:h-full relative">
+      <div className="flex justify-center pb-8 md:pb-0 px-4 md:px-20 ">
         <Image
-          className="Profile -translate-x-6"
-          src="/profile.png"
-          alt="Wahi"
-          width={250}
-          height={250}
-          style={{ objectFit: "contain" }}
+          className="md:-translate-y-10"
+          src="/landingPage.svg"
+          width={2500}
+          height={20}
         ></Image>
-
-        <div className="circle-1 absolute rounded-full h-8 w-8 hover:border-font-1 border-2" >
-          <a href="https://github.com/Wahi08">
-            <VscGithub />
-          </a>
-        </div>
-        <div className="circle-2 absolute rounded-full h-8 w-8 hover:border-font-1 border-2">
-          <a href="mailto:nwahidah0808@gmail.com">
-            <MdOutlineMailOutline />
-          </a>
-        </div>
-        <div className="circle-3 absolute rounded-full h-8 w-8 bg-lighter-yellow"></div>
-        <div className="circle-4 absolute rounded-full h-8 w-8 bg-light-yellow"></div>
-        <div className="circle-5 absolute rounded-full h-8 w-8 bg-font-1"></div>
       </div>
 
-      <div className="md:mr-10 px-8">
-        <h1>NURUL WAHIDAH</h1>
-        <p className="text-justify">
-          Highly motivated recent graduate with a passion for software
-          engineering. Particularly interested in front-end development and
-          building efficient, scalable applications. Eager to learn and
-          contribute to a fast-paced software development environment.
-        </p>
+      <div className="flex flex-col justify-center text-center px-4 gap-8 pb-8 md:flex-row md:px-20 md:-translate-y-6">
+        <div className=" border-[#f3f300ff] border-x-2 py-2 px-2">
+          <a className="font-black md:text-[24px]">ABOUT ME</a>
+          <p className="text-justify black">
+            Hi, I'm Nurul Wahidah. A highly motivated recent graduate with a
+            passion for software engineering. Particularly interested in
+            front-end development and building efficient, scalable applications.
+            Eager to learn and contribute to a fast-paced software development
+            environment.
+          </p>
+        </div>
       </div>
     </section>
   );
