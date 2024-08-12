@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from 'tailwindcss/plugin'
 
 const config: Config = {
   content: [
@@ -8,12 +9,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-
       spacing: {
         '265px': '200px',
         '110px': '110px',
@@ -21,12 +16,20 @@ const config: Config = {
       },
 
       colors: {
-        'light-yellow': '#FFF848',
-        'lighter-yellow': '#FFFF99',
-        'font-1': '#00173F'
+        'bg-5': '#FFF848', //yellow
+        'font-1': '#00173F', //dark blue
+        'font-2': '#21516d', //dark cyan
+
+        'grey-white':'#F8F7F4', //grey-white
+        'bg-2':'#7AB2B2', //light cyan
+        'bg-3':'#CDE8E5', //lighter cyan
+        'bg-4':'#EEF7FF', //lightest cyan
+
       }
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 };
 export default config;
+

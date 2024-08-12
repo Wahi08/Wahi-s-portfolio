@@ -7,50 +7,45 @@ import Image from "next/image";
 
 const Project = () => {
   return (
-    <section className="Project grid xl:grid-flow-col gap-2 bg-lighter-yellow h-100 px-6 py-6 text-center place-items-center md:px-28 ">
-      <div className="md:col-span-3">
-        <h1 className="text-[1.8rem]">PROJECT</h1>
+    <section className="bg-[#f1c660] px-4 py-8 md:px-20 ">
+      <div className="title border-grey-white border-l-[20px] pl-3">
+        <a className="font-black md:text-[34px] tracking-wider">WORK</a>
       </div>
 
-      {/* recommended places feature */}
-      <div className="md:row-span-4 rounded-[10px] relative">
-        <div className="rounded-[10px] z-0">
-          <Image
-            className="rounded-[10px]"
-            src="/trippax-app.jpg"
-            width={369}
-            height={600}
-          ></Image>
+      <div className="Works flex flex-wrap justify-center md:justify-normal md:flex-nowrap md:overflow-x-scroll snap-x h-auto gap-10 pt-4">
+        <div className="Work md:flex-shrink-0 snap-center h-[350px] w-[400px] rounded">
+          <div className="Work-img relative h-[250px] rounded overflow-hidden">
+          <a href="/trippax-feature"><img src="/trippax-thumbnail1.svg"></img></a>
+            <div className="absolute top-2 left-[5px] md:left-2 rounded-full bg-grey-white text-center border-black border-[1px] px-3 py-2 md:px-3 md:py-2 ">
+              <a className="text-[14px] md:text-[16px]">MOBILE APP</a>
+            </div>
+          </div>
+          <div className="pt-2 md:pt-2"> {/*top-padding not working*/}
+            <a className="text-black font-thin text-[18px] md:text-[22px] tracking-wider" href="/trippax-feature">
+              TRIPPAX - TRAVEL ITINERARY
+            </a>
+          </div>
+          <div className="pt-2">
+            <a className="text-gray-800">
+              Developed a new feature for the existing travel itinerary app
+              involved listing recommended places based on user location and
+              preferences.
+            </a>
+          </div>
         </div>
-        <div className="Button-bg rounded-[10px] opacity-0 absolute flex inset-0 z-10 justify-center items-center hover:opacity-100">
-          <button>
-              <Link href="/trippax">More Details</Link>
-          </button>
+
+        <div className="md:flex-shrink-0 snap-center bg-black h-[400px] w-[400px] rounded">
+          2
+        </div>
+        <div className="md:flex-shrink-0 snap-center bg-black h-[400px] w-[400px] rounded">
+          2
+        </div>
+        <div className="md:flex-shrink-0 snap-center bg-black h-[400px] w-[400px] rounded">
+          2
         </div>
       </div>
-
-      {/* content sharing */}
-      <div className="md:row-span-2 md:col-span-2 rounded-[10px] relative">
-        <Image
-          className="rounded-[10px] hover:opacity-50"
-          src="/content-sharing-1.png"
-          width={800}
-          height={530}
-        ></Image>
-      </div>
-
-      {/* web design */}
-      <div className="md:row-span-2 md:col-span-2 rounded-[10px] relative">
-        <Image
-          className="rounded-[10px] hover:opacity-50"
-          src="/test.png"
-          width={800}
-          height={530}
-        ></Image>
-      </div>
-
-      <Script></Script>
     </section>
+    
   );
 };
 
