@@ -34,15 +34,6 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="md:flex-shrink-0 snap-center bg-black h-[400px] w-[400px] rounded">
-          2
-        </div>
-        <div className="md:flex-shrink-0 snap-center bg-black h-[400px] w-[400px] rounded">
-          2
-        </div>
-        <div className="md:flex-shrink-0 snap-center bg-black h-[400px] w-[400px] rounded">
-          2
-        </div>
       </div>
     </section>
     
