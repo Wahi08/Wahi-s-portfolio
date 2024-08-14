@@ -1,12 +1,6 @@
+
 import React from "react";
 import Image from "next/image";
-
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaJava } from "react-icons/fa";
-import { FaBootstrap } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { RiNextjsFill } from "react-icons/ri";
 
 const Header = () => {
   return (
@@ -17,6 +11,7 @@ const Header = () => {
           src="/landingPage.svg"
           width={2500}
           height={20}
+          alt=""
         ></Image>
       </div>
 
@@ -24,7 +19,7 @@ const Header = () => {
         <div className=" border-[#f3f300ff] border-x-2 py-2 px-2">
           <a className="font-black md:text-[24px]">ABOUT ME</a>
           <p className="text-justify black">
-            Hi, I'm Nurul Wahidah. A highly motivated recent graduate with a
+            Hi, I&apos;m Nurul Wahidah. A highly motivated recent graduate with a
             passion for software engineering. Particularly interested in
             front-end development and building efficient, scalable applications.
             Eager to learn and contribute to a fast-paced software development

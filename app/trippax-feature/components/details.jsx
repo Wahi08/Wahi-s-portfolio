@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+
 import React from "react";
 import Image from "next/image";
 
@@ -14,7 +14,7 @@ const ProjectHeader = () => {
           </div>
 
           <div className="pt-4 grid justify-items-center">
-            <Image className="" src="/trippax-feature-header-2.svg" width={1240} height={100}></Image>
+            <Image className="" src="/trippax-feature-header-2.svg" width={1240} height={100} alt="Header"></Image>
           </div>
 
           <div className="py-6">
@@ -131,31 +131,31 @@ const ProjectHeader = () => {
         <div className="Image text-center overflow-y-auto lg:h-[calc(100vh-90px)] lg:mt-10 md:px-20 px-4">
           <div className="image-1 grid justify-items-center overflow-hidden bg-[#FF8C20]">
             <div className="m-4">
-              <Image src="/popup-menu.svg" width={1000} height={1000}></Image>
+              <Image src="/popup-menu.svg" width={1000} height={1000} alt="Popup Menu Image"></Image>
             </div>
           </div>
 
           <div className="image-2 grid justify-items-center rounded overflow-hidden my-10 bg-[#FF8C20]">
             <div className="m-4">
-              <Image src="/view-list.svg" width={1000} height={1000}></Image>
+              <Image src="/view-list.svg" width={1000} height={1000} alt="View List Image"></Image>
             </div>
           </div>
 
           <div className="image-3 grid justify-items-center  rounded overflow-hidden mt-10 bg-[#FF8C20]">
             <div className="m-4">
-              <Image src="/view-activity.svg" width={1000} height={1000}></Image>
+              <Image src="/view-activity.svg" width={1000} height={1000} alt="View Activity Image"></Image>
             </div>
           </div>
 
           <div className="image-4 grid justify-items-center  rounded overflow-hidden mt-10 bg-[#FF8C20]">
             <div className="m-4">
-              <Image src="/navigation-option.svg" width={1000} height={1000}></Image>
+              <Image src="/navigation-option.svg" width={1000} height={1000} alt="Navigation Option Image"></Image>
             </div>
           </div>
 
           <div className="image-5 grid justify-items-center  rounded overflow-hidden my-10 bg-[#FF8C20]">
             <div className="m-4">
-              <Image src="/empty-field.svg" width={1000} height={1000}></Image>
+              <Image src="/empty-field.svg" width={1000} height={1000} alt="Activity Fields Image"></Image>
             </div>
           </div>
         </div>
