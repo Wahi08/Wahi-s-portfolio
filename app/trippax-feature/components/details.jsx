@@ -27,7 +27,7 @@ const ProjectHeader = () => {
               experience.
             </p>
             <a className="font-semibold">
-              Note: I am unsure of the feature's current release status
+              Note: I am unsure of the feature&apos;s current release status
             </a>
           </div>
 
