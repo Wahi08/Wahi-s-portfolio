@@ -19,10 +19,9 @@ const ProjectHeader = () => {
 
           <div className="py-6">
             <p className="font-normal tracking-wider text-gray-800">
-              Travelers often struggle to discover new and exciting
+              Travelers are often struggle to discover new and exciting
               destinations. TripPAX addresses this challenge by providing
-              intelligent recommendations based on user location and
-              preferences. With our enhanced features, users can effortlessly
+              recommendations based on user location. With the enhanced features, users can effortlessly
               discover and explore new places, maximizing their travel
               experience.
             </p>
