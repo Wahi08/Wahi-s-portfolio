@@ -12,7 +12,7 @@ const Project = () => {
       <div className="Works flex flex-wrap justify-center md:justify-normal md:flex-nowrap md:overflow-x-scroll snap-x h-auto gap-10 pt-4">
         <div className="Work md:flex-shrink-0 snap-center h-[380px] w-[400px] rounded">
           <div className="Work-img relative h-[250px] rounded overflow-hidden">
-          <a href="/trippax-feature"><Image src="/trippax-thumbnail1.svg" width={1240} height={100} alt=""></Image></a>
+          <Link href="/trippax-feature"><Image src="/trippax-thumbnail1.svg" width={1240} height={100} alt=""></Image></Link>
             <div className="absolute top-2 left-[5px] md:left-2 rounded-full bg-grey-white text-center border-black border-[1px] px-3 py-2 md:px-3 md:py-2 ">
               <a className="text-[14px] md:text-[16px]">MOBILE APP</a>
             </div>
