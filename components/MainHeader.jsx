@@ -21,7 +21,6 @@ const MainHeader = () => {
       <a className="text-[24px] float-right" href="mailto:nwahidah0808@gmail.com">
           <MdOutlineMailOutline />
         </a>
-
       </div>
 
       
